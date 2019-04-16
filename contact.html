@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="index.html">
+      <a class="navbar-item" href="/">
         First Responder Anxiety
       </a>
   
@@ -25,11 +25,11 @@
   
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" src='index.html'>
+        <a class="navbar-item" href='/'>
           Home
         </a>
   
-        <a class="navbar-item" src='team.html'>
+        <a class="navbar-item" href='team.html'>
           About the Team
         </a>
 
@@ -39,6 +39,62 @@
       </div>
     </div>
   </nav>
+
+  <section class='section'>
+    <h1 class='title'>Contact</h1>
+    <h2 class='subtitle'>If our Project Sounds interesting to you, please get in touch</h2>
+
+  <div class="field">
+    <label class="label">Name</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Enter your name">
+    </div>
+  </div>
+
+  <div class='field'>
+    <label class='label'>Organization</label>
+    <div class='control'>
+      <input class='input' type='text' placeholder="If you are affiliated with an Organization, please enter it here">
+    </div>
+  </div>  
+  
+  <div class="field">
+    <label class="label">Email</label>
+    <div class="control has-icons-left has-icons-right">
+      <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+      <span class="icon is-small is-left">
+        <i class="fas fa-envelope"></i>
+      </span>
+      <span class="icon is-small is-right">
+        <i class="fas fa-exclamation-triangle"></i>
+      </span>
+    </div>
+    <p class="help is-danger">This email is invalid</p>
+  </div>
+  
+  <div class="field">
+    <label class="label">Subject</label>
+    <div class="control">
+      <input class='input' type='text' placeholder='Enter the subject'>
+    </div>
+  </div>
+  
+  <div class="field">
+    <label class="label">Message</label>
+    <div class="control">
+      <textarea class="textarea" placeholder="Enter your message"></textarea>
+    </div>
+  </div>
+  
+  <div class="field is-grouped">
+    <div class="control">
+      <button class="button is-link">Submit</button>
+    </div>
+    <div class="control">
+      <button class="button is-text">Cancel</button>
+    </div>
+  </div>
+  </section>
 
   <footer class="footer">
     <div class="content has-text-centered">
