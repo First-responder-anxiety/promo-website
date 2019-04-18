@@ -1,3 +1,5 @@
+console.log("This is a test");
+
 document.addEventListener('DOMContentLoaded', () => {
 
   // Get all "navbar-burger" elements
@@ -20,5 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       });
     });
-  }  
+  }
+
 });

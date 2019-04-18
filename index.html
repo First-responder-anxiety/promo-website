@@ -7,14 +7,15 @@
     <title>Neuro Nexus Team 14</title>
     <link rel='stylesheet' href='node_modules/bulma/css/bulma.min.css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel='text/javascript' src='js/index.js'>
 </head>
 <body>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://www.innovation4health.com/neuronexus">
-        Neuronexus Home
-      </a>
+      <div class="navbar-item">
+        <a class="button is-info" href="https://www.innovation4health.com/neuronexus">
+          Neuronexus Home &nbsp; <i class="far fa-heart"></i>
+        </a>
+    </div>
   
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -23,22 +24,22 @@
       </a>
     </div>
   
-    <div class="navbar-menu">
+    <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item" href='/'>
-          Home
+          Home &nbsp; <i class="fas fa-home"></i>
         </a>
   
         <a class="navbar-item" href='team.html'>
-          About the Team
+          About the Team &nbsp; <i class="fas fa-user-friends"></i>
         </a>
 
         <a class="navbar-item" href='contact.html'>
-          Contact
+          Contact &nbsp; <i class="fas fa-envelope"></i>
         </a>
       </div>
     </div>
-  </nav>
+  </nav>    
 
   <section class="hero is-primary">
     <div class="hero-body">
@@ -67,7 +68,7 @@
     
     Aliquam vestibulum morbi blandit cursus risus at ultrices. Turpis egestas integer eget aliquet nibh praesent tristique magna sit. Viverra tellus in hac habitasse. Aliquam ut porttitor leo a diam sollicitudin tempor. Varius vel pharetra vel turpis nunc eget lorem. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Et ultrices neque ornare aenean euismod elementum. Semper eget duis at tellus at urna condimentum mattis pellentesque. Lectus sit amet est placerat in. Nisi lacus sed viverra tellus. Leo integer malesuada nunc vel risus. Nec feugiat in fermentum posuere urna. Scelerisque viverra mauris in aliquam sem fringilla ut morbi.</p>
 
-    <h1 class="title">Our Solution<a href="our_solution"></a></h1>
+    <h1 class="title">Our Solution<a name="our_solution"></a></h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu sem integer vitae justo. Sed velit dignissim sodales ut eu sem integer vitae. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Pharetra diam sit amet nisl suscipit adipiscing. Proin libero nunc consequat interdum varius sit amet mattis. Tempor orci dapibus ultrices in. Aliquam vestibulum morbi blandit cursus risus. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Porttitor lacus luctus accumsan tortor posuere. Sit amet nisl purus in mollis nunc sed. Dolor purus non enim praesent elementum facilisis leo vel fringilla. Maecenas pharetra convallis posuere morbi leo urna molestie. Accumsan tortor posuere ac ut consequat. Habitant morbi tristique senectus et netus et. Cras sed felis eget velit aliquet. Sed faucibus turpis in eu mi bibendum neque. Suscipit tellus mauris a diam maecenas sed enim ut. Eu feugiat pretium nibh ipsum consequat nisl vel. Consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat.
 
     Pellentesque habitant morbi tristique senectus et netus et malesuada. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Tristique et egestas quis ipsum. Nibh ipsum consequat nisl vel pretium lectus quam. Mattis pellentesque id nibh tortor. Sit amet porttitor eget dolor morbi non arcu risus. Etiam non quam lacus suspendisse faucibus. Netus et malesuada fames ac turpis egestas sed. Faucibus purus in massa tempor nec. Sit amet consectetur adipiscing elit. Porttitor eget dolor morbi non arcu risus quis varius quam. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Purus ut faucibus pulvinar elementum integer enim neque volutpat.
@@ -78,7 +79,7 @@
     
     Aliquam vestibulum morbi blandit cursus risus at ultrices. Turpis egestas integer eget aliquet nibh praesent tristique magna sit. Viverra tellus in hac habitasse. Aliquam ut porttitor leo a diam sollicitudin tempor. Varius vel pharetra vel turpis nunc eget lorem. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Et ultrices neque ornare aenean euismod elementum. Semper eget duis at tellus at urna condimentum mattis pellentesque. Lectus sit amet est placerat in. Nisi lacus sed viverra tellus. Leo integer malesuada nunc vel risus. Nec feugiat in fermentum posuere urna. Scelerisque viverra mauris in aliquam sem fringilla ut morbi.</p>
 
-    <h1 class="title">Stay in Contact<a href="stay_in_contact"></a></h1>
+    <h1 class="title">Stay in Contact<a name="stay_in_contact"></a></h1>
     <p>If this project sounds interesting to you, there are a few ways you can keep up to date:</p><br>
     <aside class="menu">
       <ul class="menu-list">
@@ -97,5 +98,7 @@
       </a>
     </div>
   </footer>
+
+  <script src="js/index.js"></script>
 </body>
 </html>
