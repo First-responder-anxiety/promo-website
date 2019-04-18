@@ -7,13 +7,13 @@
     <title>Neuro Nexus Team 14</title>
     <link rel='stylesheet' href='node_modules/bulma/css/bulma.min.css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel='text/javascript' src='js/index.js'
+    <link rel='text/javascript' src='js/index.js'>
 </head>
 <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
-        First Responder Anxiety
+      <a class="navbar-item" href="https://www.innovation4health.com/neuronexus">
+        NeuroNexus Home
       </a>
   
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -40,61 +40,62 @@
     </div>
   </nav>
 
-  <section class='section'>
-    <h1 class='title'>Contact</h1>
-    <h2 class='subtitle'>If our Project Sounds interesting to you, please get in touch</h2>
+  <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class='title'>Contact</h1>
+          <h2 class='subtitle'>If our project sounds interesting to you, please get in touch</h2>
+        </div>
+      </div>
+    </section>
 
+  <section class='section'>
+  <form name="contact_form" action="" method="GET">
   <div class="field">
     <label class="label">Name</label>
     <div class="control">
-      <input class="input" type="text" placeholder="Enter your name">
+      <input class="input" id="form-name" type="text" placeholder="Enter your name">
     </div>
   </div>
 
   <div class='field'>
     <label class='label'>Organization</label>
     <div class='control'>
-      <input class='input' type='text' placeholder="If you are affiliated with an Organization, please enter it here">
+      <input class='input' id="form-org" type='text' placeholder="If you are affiliated with an Organization, please enter it here">
     </div>
   </div>  
   
   <div class="field">
     <label class="label">Email</label>
     <div class="control has-icons-left has-icons-right">
-      <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+      <input class="input" id="form-email" type="email" placeholder="Enter your email">
       <span class="icon is-small is-left">
         <i class="fas fa-envelope"></i>
       </span>
-      <span class="icon is-small is-right">
-        <i class="fas fa-exclamation-triangle"></i>
-      </span>
     </div>
-    <p class="help is-danger">This email is invalid</p>
   </div>
   
   <div class="field">
     <label class="label">Subject</label>
     <div class="control">
-      <input class='input' type='text' placeholder='Enter the subject'>
+      <input class='input' id="form-subject" type='text' placeholder='Enter the subject'>
     </div>
   </div>
   
   <div class="field">
     <label class="label">Message</label>
     <div class="control">
-      <textarea class="textarea" placeholder="Enter your message"></textarea>
+      <textarea class="textarea" id="form-message" placeholder="Enter your message"></textarea>
     </div>
   </div>
   
   <div class="field is-grouped">
     <div class="control">
-      <button class="button is-link">Submit</button>
-    </div>
-    <div class="control">
-      <button class="button is-text">Cancel</button>
+      <button class="button is-link" id="submit">Submit</button>
     </div>
   </div>
-  </section>
+</form>
+</section>
 
   <footer class="footer">
     <div class="content has-text-centered">
